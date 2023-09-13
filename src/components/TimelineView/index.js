@@ -1,6 +1,6 @@
 // Write your code here
 import {Chrono} from 'react-chrono'
-import ProjectTimeLineCard from '../ProjectTimelineCard'
+import ProjectTimelineCard from '../ProjectTimelineCard'
 import CourseTimelineCard from '../CourseTimelineCard'
 
 import {
@@ -16,7 +16,7 @@ const TimelineView = props => {
 
   const renderTimelineCard = item => {
     if (item.categoryId === 'PROJECT') {
-      return <ProjectTimeLineCard key={item.id} projectDetails={item} />
+      return <ProjectTimelineCard key={item.id} projectDetails={item} />
     }
     return <CourseTimelineCard key={item.id} courseDetails={item} />
   }

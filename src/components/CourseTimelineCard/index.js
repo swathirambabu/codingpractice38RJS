@@ -11,7 +11,7 @@ import {
   CourseTag,
 } from './styledComponents'
 
-const CourseTimeLineCard = props => {
+const CourseTimelineCard = props => {
   const {CourseDetails} = props
   const {courseTitle, description, duration, tagsList} = CourseDetails
 
@@ -35,4 +35,4 @@ const CourseTimeLineCard = props => {
     </>
   )
 }
-export default CourseTimeLineCard
+export default CourseTimelineCard
